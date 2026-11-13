@@ -17,7 +17,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-14          # Xcode 15.x — supports an iOS 12.0 deployment target
+    runs-on: macos-latest          # Xcode 15.x — supports an iOS 12.0 deployment target
     steps:
       - uses: actions/checkout@v4
 
